@@ -1,7 +1,18 @@
-# skopeo-service
+skopeo-service
+--------------
 
 Web service for Skopeo. Useful if you don't want to install Skopeo as a binary inside your image, but rather invoke
 Skopeo via HTTP.
+
+# Setup
+
+## Running in Docker
+
+```bash
+docker run whirlwin/skopeo-service
+```
+
+# Usage
 
 ## Supported endpoints
 
